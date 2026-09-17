@@ -77,13 +77,11 @@ class EverisFridayState extends State<EverisFridayApp> {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Builder(
-                // ← AGGIUNGI Builder
                 builder: (innerContext) {
-                  // ← Usa innerContext
                   return ElevatedButton(
                     onPressed: () {
                       Navigator.push(
-                        innerContext, // ← innerContext invece di context
+                        innerContext, 
                         MaterialPageRoute(
                           builder: (context) => const AffordablePubsScreen(),
                         ),
