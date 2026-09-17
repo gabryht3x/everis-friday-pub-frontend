@@ -1,8 +1,6 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-
 import 'models/pubs.dart';
 import 'pub_card.dart';
 import 'affordable_pubs_screen.dart';
